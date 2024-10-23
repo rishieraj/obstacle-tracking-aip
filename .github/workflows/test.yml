@@ -3,7 +3,7 @@ name: Perception CI
 on:
   # Triggered whenever push to main 
   push:
-    branches: [ "main" ]
+    branches: [ "iteration_1" ]
 
   # Triggered whenever a pull request is created on main
   pull_request:
