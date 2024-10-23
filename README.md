@@ -4,6 +4,25 @@
 
 [![CICD Workflow status](https://github.com/Uthappa13/obstacle-tracking-aip/actions/workflows/test.yml/badge.svg)](https://github.com/Uthappa13/obstacle-tracking-aip/actions/workflows/test.yml) [![codecov](https://codecov.io/gh/Uthappa13/obstacle-tracking-aip/branch/main/graph/badge.svg)](https://codecov.io/gh/Uthappa13/obstacle-tracking-aip) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+### Project Summary
+We are designing a human obstacle detection and tracking system for Acme’s warehouse robot, aimed at improving safety and efficiency in material handling operations. This system is vital in environments where human workers coexist with robots, ensuring that the robot can detect and track multiple humans within its operational range and adjust its path accordingly.
+
+The system will use a monocular video camera to detect and track human presence, outputting positional information directly in the robot’s reference frame. This will allow the robot to navigate effectively and safely while avoiding potential collisions with workers. An object detection and tracking system is critical for modern robots as they often need to operate in crowded environments. A robust perception system helps the robots to plan a path avoiding obstacles. This
+particular module is built in a self-contained manner such that it can be integrated directly into any robot system as a package and run as part of the whole system. The software module designed by us will be used in the Acme warehouse robot for safe navigation on the shop-floor for which it requires detection and tracking of human obstacles.
+
+### Personnel Info
+The authors of this Perception project are Rishie Raj and Uthappa Madettira, both graduate students in Robotics at the University of Maryland, College Park.
+
+### AIP Workflow
+This project was developed using the Agile Development Process (AIP) along with pair programming (with a driver and navigator), with a focus on test-driven development (TDD). The product backlog details have been linked below for Iteration-1. The link to the sprint meeting discussions for this sprint have also been linked below.
+
+ - [Product Backlog]()
+ - [Sprint Meeting Plan and Review]()
+
+The latest (Phase 1) developed UML class and activity diagrams can be found in the `UML/revised` directory. The earlier devised UML diagrams as a part of Phase 0 are available in the `UML/initial` directory. 
+
+A short video providing a brief overview of the project and the details explaining the AIP process used is embedded below. A direct link to the same can also be found [here](https://www.youtube.com/watch?v=Eoj4YyOxvfU).
+
 ### Installing Dependencies
 To install the dependencies for this project (ONNX and OpenCV), simply run the command below on an Ubuntu system (confirmed to work on Ubuntu 22.04).
 ```sh
