@@ -1,4 +1,0 @@
-Done processing ./app/main.cpp
-Done processing ./libs/Detector/detector.cpp
-Done processing ./test/main.cpp
-Done processing ./test/test.cpp
