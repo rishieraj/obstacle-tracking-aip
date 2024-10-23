@@ -1,7 +1,5 @@
 # Obstacle Detection and Tracking for Warehouse Robots
 
-## Phase-0
-
 In the proposal phase, we have designed the software plan along with the following elements of software design:  
 
  1. [Software Plan](https://drive.google.com/file/d/1jGiiobS3-BFS2GZKp7tRJ7s5Mr_CgpAN/view?usp=drive_link)
