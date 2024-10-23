@@ -1,6 +1,8 @@
 # Obstacle Detection and Tracking for Warehouse Robots
 
-## Phase-0
+## Phase-1
+
+[![CICD Workflow status](https://github.com/Uthappa13/obstacle-tracking-aip/actions/workflows/test.yml/badge.svg)](https://github.com/Uthappa13/obstacle-tracking-aip/actions/workflows/test.yml) [![codecov](https://codecov.io/gh/Uthappa13/obstacle-tracking-aip/branch/main/graph/badge.svg)](https://codecov.io/gh/Uthappa13/obstacle-tracking-aip) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 In the proposal phase, we have designed the software plan along with the following elements of software design:  
 
