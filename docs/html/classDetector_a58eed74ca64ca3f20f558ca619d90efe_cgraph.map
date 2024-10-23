@@ -1,4 +1,0 @@
-<map id="Detector::postprocess_img" name="Detector::postprocess_img">
-<area shape="rect" id="node1" title="Declaration of method to update the output object with bounding boxes and target pixels." alt="" coords="5,13,201,39"/>
-<area shape="rect" id="node2" href="$classDetector.html#a82b82adc9852cfffc78172b6caf70e79" title="Declaration of method to update the pixels of the bounding boxes." alt="" coords="249,5,424,47"/>
-</map>

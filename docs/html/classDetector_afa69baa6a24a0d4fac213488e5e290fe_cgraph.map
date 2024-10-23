@@ -1,6 +1,0 @@
-<map id="Detector::detect_humans" name="Detector::detect_humans">
-<area shape="rect" id="node1" title="Declaration of method for human detection using YOLOv5 model." alt="" coords="5,38,192,65"/>
-<area shape="rect" id="node2" href="$classDetector.html#a58eed74ca64ca3f20f558ca619d90efe" title="Declaration of method to update the output object with bounding boxes and target pixels." alt="" coords="240,13,436,39"/>
-<area shape="rect" id="node4" href="$classDetector.html#a87f613fb3033145d5fa42d65b90d6c11" title="Declaration of method to preprocess image before input to the detector." alt="" coords="243,63,433,90"/>
-<area shape="rect" id="node3" href="$classDetector.html#a82b82adc9852cfffc78172b6caf70e79" title="Declaration of method to update the pixels of the bounding boxes." alt="" coords="484,5,659,47"/>
-</map>
