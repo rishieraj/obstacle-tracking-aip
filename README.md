@@ -2,7 +2,7 @@
 
 ## Phase-1
 
-![CICD Workflow status](https://github.com/Uthappa13/obstacle-tracking-aip/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) [![codecov](https://codecov.io/gh/Uthappa13/obstacle-tracking-aip/branch/iteration_1/graph/badge.svg)](https://codecov.io/gh/Uthappa13/obstacle-tracking-aip) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![CICD Workflow status](https://github.com/Uthappa13/obstacle-tracking-aip/actions/workflows/test.yml/badge.svg)](https://github.com/Uthappa13/obstacle-tracking-aip/actions/workflows/test.yml) [![codecov](https://codecov.io/gh/Uthappa13/obstacle-tracking-aip/branch/main/graph/badge.svg)](https://codecov.io/gh/Uthappa13/obstacle-tracking-aip) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 In the proposal phase, we have designed the software plan along with the following elements of software design:  
 
