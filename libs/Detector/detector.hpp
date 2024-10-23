@@ -1,12 +1,12 @@
 /**
  * @file detector.hpp
  * @author your name (you@domain.com)
- * @brief 
+ * @brief
  * @version 0.1
  * @date 2024-10-22
- * 
+ *
  * @copyright Copyright (c) 2024
- * 
+ *
  */
 #include <opencv2/dnn.hpp>
 #include <opencv2/imgproc.hpp>

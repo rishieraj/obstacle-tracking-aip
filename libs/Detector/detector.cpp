@@ -1,5 +1,8 @@
 #include "detector.hpp"
 
+#include <string>
+#include <vector>
+
 Detector::Detector(cv::dnn::Net yolo_model, int yolo_img_width,
                    int yolo_img_height, float confidence_threshold,
                    float nms_threshold, float score_threshold,
