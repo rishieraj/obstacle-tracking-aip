@@ -1,6 +1,6 @@
 # Obstacle Detection and Tracking for Warehouse Robots
 
-## Phase-1
+## Phase-2
 
 [![CICD Workflow status](https://github.com/rishieraj/obstacle-tracking-aip/actions/workflows/test.yml/badge.svg)](https://github.com/rishieraj/obstacle-tracking-aip/actions/workflows/test.yml) [![codecov](https://codecov.io/gh/rishieraj/obstacle-tracking-aip/branch/main/graph/badge.svg)](https://codecov.io/gh/rishieraj/obstacle-tracking-aip) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -14,12 +14,12 @@ particular module is built in a self-contained manner such that it can be integr
 The authors of this Perception project are Rishie Raj and Uthappa Madettira, both graduate students in Robotics at the University of Maryland, College Park.
 
 ### AIP Workflow
-This project was developed using the Agile Development Process (AIP) along with pair programming (with a driver and navigator), with a focus on test-driven development (TDD). The product backlog details have been linked below for Iteration-1. The link to the sprint meeting discussions for this sprint have also been linked below.
+This project was developed using the Agile Development Process (AIP) along with pair programming (with a driver and navigator), with a focus on test-driven development (TDD). The product backlog details have been linked below for Iteration-2. The link to the sprint meeting discussions for this sprint have also been linked below.
 
  - [Product Backlog](https://docs.google.com/spreadsheets/d/1qtcS4uq2FjSLTZ0jtuV0sKn7PudzRwPuLhG2PHGJw3E/edit?usp=drive_link)
  - [Sprint Meeting Plan and Review](https://docs.google.com/document/d/1mYu_vcO9rMNK6TtyyJi_NpTCQDjfDIR6bn9rOT_iLjo/edit?usp=sharing)
 
-The latest (Phase 1) developed UML class and activity diagrams can be found in the `UML/revised` directory. The earlier devised UML diagrams as a part of Phase 0 are available in the `UML/initial` directory. 
+The latest (Phase 2) developed UML class and activity diagrams can be found in the `UML/revised` directory. The earlier devised UML diagrams as a part of Phase 0 are available in the `UML/initial` directory. 
 
 A short video providing a brief overview of the project and the details explaining the AIP process used is embedded below. A direct link to the same can also be found [here](https://drive.google.com/file/d/1eOC-K-yg1N1fbtuiCu27ZhuwCuoyBkLL/view?usp=drive_link).
 
