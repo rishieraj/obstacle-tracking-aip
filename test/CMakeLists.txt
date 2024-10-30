@@ -9,7 +9,9 @@ add_executable(perception-test
 target_link_libraries(perception-test PUBLIC
   # list of libraries:
   gtest
+  gmock
   DetectorLib
+  TrackerLib
   )
 
 # Enable CMake’s test runner to discover the tests included in the

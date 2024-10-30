@@ -18,6 +18,7 @@ target_include_directories(perception-app PUBLIC
 target_link_libraries(perception-app PUBLIC
   # list of libraries
   DetectorLib
+  TrackerLib
   ${OpenCV_LIBS}
   )
   

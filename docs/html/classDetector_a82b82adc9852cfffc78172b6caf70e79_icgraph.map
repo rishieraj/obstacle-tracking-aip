@@ -1,6 +1,0 @@
-<map id="Detector::get_bounding_boxes" name="Detector::get_bounding_boxes">
-<area shape="rect" id="node1" title="Declaration of method to update the pixels of the bounding boxes." alt="" coords="587,5,761,47"/>
-<area shape="rect" id="node2" href="$classDetector.html#a58eed74ca64ca3f20f558ca619d90efe" title="Declaration of method to update the output object with bounding boxes and target pixels." alt="" coords="343,13,539,39"/>
-<area shape="rect" id="node3" href="$classDetector.html#afa69baa6a24a0d4fac213488e5e290fe" title="Declaration of method for human detection using YOLOv5 model." alt="" coords="108,13,295,39"/>
-<area shape="rect" id="node4" href="$app_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,13,60,39"/>
-</map>
