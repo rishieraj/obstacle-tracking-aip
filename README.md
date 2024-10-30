@@ -2,7 +2,7 @@
 
 ## Phase-2
 
-[![CICD Workflow status](https://github.com/Uthappa13/obstacle-tracking-aip/actions/workflows/test.yml/badge.svg)](https://github.com/Uthappa13/obstacle-tracking-aip/actions/workflows/test.yml) [![codecov](https://codecov.io/gh/Uthappa13/obstacle-tracking-aip/branch/main/graph/badge.svg)](https://codecov.io/gh/Uthappa13/obstacle-tracking-aip) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![CICD Workflow status](https://github.com/rishieraj/obstacle-tracking-aip/actions/workflows/test.yml/badge.svg)](https://github.com/rishieraj/obstacle-tracking-aip/actions/workflows/test.yml) [![codecov](https://codecov.io/gh/rishieraj/obstacle-tracking-aip/branch/main/graph/badge.svg)](https://codecov.io/gh/rishieraj/obstacle-tracking-aip) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ### Project Summary
 We are designing a human obstacle detection and tracking system for Acme’s warehouse robot, aimed at improving safety and efficiency in material handling operations. This system is vital in environments where human workers coexist with robots, ensuring that the robot can detect and track multiple humans within its operational range and adjust its path accordingly.
@@ -16,7 +16,7 @@ The authors of this Perception project are Rishie Raj and Uthappa Madettira, bot
 ### AIP Workflow
 This project was developed using the Agile Development Process (AIP) along with pair programming (with a driver and navigator), with a focus on test-driven development (TDD). The product backlog details have been linked below for Iteration-2. The link to the sprint meeting discussions for this sprint have also been linked below.
 
- - [Product Backlog](https://docs.google.com/spreadsheets/d/1qtcS4uq2FjSLTZ0jtuV0sKn7PudzRwPuLhG2PHGJw3E/edit?usp=drive_link)
+ - [Product Backlog](https://docs.google.com/spreadsheets/d/1IKAUxy1mkGiCLIdEcEQWG1Qbgh7M3fCQuxKbfBiQsxw/edit?usp=drive_link)
  - [Sprint Meeting Plan and Review](https://docs.google.com/document/d/1mYu_vcO9rMNK6TtyyJi_NpTCQDjfDIR6bn9rOT_iLjo/edit?usp=sharing)
 
 The latest (Phase 2) developed UML class and activity diagrams can be found in the `UML/revised` directory. The earlier devised UML diagrams as a part of Phase 0 are available in the `UML/initial` directory. 
