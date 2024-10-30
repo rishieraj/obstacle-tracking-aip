@@ -72,6 +72,8 @@ int main(int argc, char* argv[]) {
   }
   // Close capture object
   cap.release();
+  // Free the dynamically allocated memory
+  delete human_tracker;
   // Closes all the frames
   cv::destroyAllWindows();
   return 0;
