@@ -1,22 +1,21 @@
 /**
  * @file tracker.hpp
- * @author your name (you@domain.com)
- * @brief 
+ * @author Rishie Raj (rraj27@umd.edu), Uthappa Madettira (uthu@umd.edu)
+ * @brief Header file for tracker class
  * @version 0.1
- * @date 2024-10-29
- * 
+ * @date 2024-10-30
+ *
  * @copyright Copyright (c) 2024
- * 
+ *
  */
-
 #include <opencv2/opencv.hpp>
 #include <vector>
 
 #pragma once
 
 /**
- * @brief 
- *
+ * @brief Class declaration for the tracker module
+ * 
  */
 
 class Tracker {
