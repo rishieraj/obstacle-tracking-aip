@@ -1,7 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node1" title=" " alt="" coords="5,38,60,65"/>
-<area shape="rect" id="node2" href="$classDetector.html#afa69baa6a24a0d4fac213488e5e290fe" title="Declaration of method for human detection using YOLOv5 model." alt="" coords="108,38,295,65"/>
-<area shape="rect" id="node3" href="$classDetector.html#a58eed74ca64ca3f20f558ca619d90efe" title="Declaration of method to update the output object with bounding boxes and target pixels." alt="" coords="343,13,539,39"/>
-<area shape="rect" id="node5" href="$classDetector.html#a87f613fb3033145d5fa42d65b90d6c11" title="Declaration of method to preprocess image before input to the detector." alt="" coords="346,63,535,90"/>
-<area shape="rect" id="node4" href="$classDetector.html#a82b82adc9852cfffc78172b6caf70e79" title="Declaration of method to update the pixels of the bounding boxes." alt="" coords="587,5,761,47"/>
-</map>

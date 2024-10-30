@@ -3,8 +3,9 @@
 #include <string>
 
 #include "detector.hpp"
+#include "tracker.hpp"
 
-// Parameters to initialise detector object
+
 const char CLASSLIST_PATH[] = "./data/coco.names";
 const char MODEL_PATH[] = "./model/yolov5s.onnx";
 const float YOLO_IMG_WIDTH = 640.0;
@@ -13,6 +14,14 @@ const float CONFIDENCE_THRESHOLD = 0.45;
 const float NMS_THRESHOLD = 0.45;
 const float SCORE_THRESHOLD = 0.5;
 const int YOLO_GRID_CELLS = 25200;
+
+
+float HEIGHT = 0.762;
+const float FOCAL_LENGTH = 1.898;
+const float HFOV = 100.11;
+const float VFOV = 56.34;
+const float PIXEL_SIZE = 0.0028;
+std::vector<int> RESOLUTION = {1280, 720};
 
 int main(int argc, char* argv[]) {
   // Use command line arguments to initialise camera and height
@@ -38,6 +47,9 @@ int main(int argc, char* argv[]) {
     return -1;
   }
 
+  Tracker* human_tracker =
+      new Tracker(HEIGHT, FOCAL_LENGTH, HFOV, VFOV, RESOLUTION, PIXEL_SIZE);
+
   while (1) {
     cv::Mat frame;
     cap >> frame;
@@ -45,6 +57,14 @@ int main(int argc, char* argv[]) {
     if (frame.empty()) break;
 
     DetectorOutput output = detector.detect_humans(frame);
+    // Detector method comes here to populate prediction pixels
+    std::vector<cv::Point> prediction_pixels = output.pixels;
+    // Calling tracker method for coordinates in camera frame
+    std::vector<std::vector<float>> coordinates =
+        human_tracker->pixel_to_camera_frame(prediction_pixels);
+    // Plot coordinates on frame
+    cv::Mat final_frame = human_tracker->plot_coordinates(
+        prediction_pixels, coordinates, output.boxed_img);
     // Display the frame
     cv::imshow("Frame", output.boxed_img);
     char c = static_cast<char>(cv::waitKey(25));
@@ -52,6 +72,8 @@ int main(int argc, char* argv[]) {
   }
   // Close capture object
   cap.release();
+  // Free the dynamically allocated memory
+  delete human_tracker;
   // Closes all the frames
   cv::destroyAllWindows();
   return 0;
