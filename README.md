@@ -2,7 +2,7 @@
 
 ## Phase-2
 
-[![CICD Workflow status](https://github.com/Uthappa13/obstacle-tracking-aip/actions/workflows/test.yml/badge.svg)](https://github.com/Uthappa13/obstacle-tracking-aip/actions/workflows/test.yml) [![codecov](https://codecov.io/gh/Uthappa13/obstacle-tracking-aip/branch/main/graph/badge.svg)](https://codecov.io/gh/Uthappa13/obstacle-tracking-aip) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![CICD Workflow status](https://github.com/rishieraj/obstacle-tracking-aip/actions/workflows/test.yml/badge.svg)](https://github.com/rishiraj/obstacle-tracking-aip/actions/workflows/test.yml) [![codecov](https://codecov.io/gh/rishieraj/obstacle-tracking-aip/branch/main/graph/badge.svg)](https://codecov.io/gh/rishieraj/obstacle-tracking-aip) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ### Project Summary
 We are designing a human obstacle detection and tracking system for Acme’s warehouse robot, aimed at improving safety and efficiency in material handling operations. This system is vital in environments where human workers coexist with robots, ensuring that the robot can detect and track multiple humans within its operational range and adjust its path accordingly.
