@@ -1,10 +1,9 @@
 #include <gtest/gtest.h>
-#include "gmock/gmock.h"
-
 #include <fstream>
-
+#include "gmock/gmock.h"
 #include "detector.hpp"
 #include "tracker.hpp"
+
 
 TEST(dummy_test, pass_test) { EXPECT_EQ(1, 1); }
 
